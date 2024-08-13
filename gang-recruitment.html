@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gang Recruitment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="image-container">
+        <div class="form-container">
+            <h1>Gang Recruitment</h1>
+            <form action="submission.html" method="POST">
+                <input type="text" name="character-name" placeholder="Character Name" required>
+                <input type="number" name="real-age" placeholder="Real Age" required>
+                <input type="text" name="rp-experience" placeholder="RP Experience" required>
+                <input type="text" name="discord-username" placeholder="Discord Username" required>
+                <textarea name="reason" placeholder="Reason for joining the family" required></textarea>
+                <label for="gang-preference">What would you prefer:</label>
+                <select name="gang-preference" id="gang-preference" required>
+                    <option value="situations">A gang with situations</option>
+                    <option value="rp-mind">A gang with RP mind</option>
+                    <option value="balanced">A gang doing RP and situations balanced</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

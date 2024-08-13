@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.video-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+
+.form-container {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ff3c00;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form button:hover {
+    background: #ff5733;
+}
+
+.form p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.form a {
+    color: #ff3c00;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+.content-container {
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.content-container h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.content-container p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff3c00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ff5733;
+}
+/* Existing CSS styles remain the same */
+
+/* Error Message Styles */
+.error-message {
+    color: red;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* Image Background Container */
+.image-container {
+    position: relative;
+    height: 100vh;
+    background: url('wp9549702.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Content Box Styles */
+.content-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    max-width: 600px;
+    margin: auto;
+}
+
+.content-box h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content-box p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Image Background Container */
+.image-container {
+    position: relative;
+    height: 100vh;
+    background: url('wp9549702.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Form Container Styles */
+.form-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.form-container input, .form-container textarea, .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+.form-container textarea {
+    height: 100px;
+    resize: none;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ff3c00;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-container button:hover {
+    background: #ff5733;
+}

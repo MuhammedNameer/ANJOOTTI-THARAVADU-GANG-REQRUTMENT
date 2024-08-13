@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="myVideo">
+            <source src="c:\Users\muham\Desktop\vedio\Cool Motivating Background Music for Sports & Workout Videos.mp4" type="video/mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="form-container">
+            <!-- Login Form -->
+            <div id="login-form" class="form">
+                <h1>Welcome Gamer</h1>
+                <form action="#">
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <p>Not a member? <a href="#" id="sign-up-link">Sign Up</a></p>
+            </div>
+
+            <!-- Sign-Up Form -->
+            <div id="sign-up-form" class="form hidden">
+                <h1>Looks like you're new here!</h1>
+                <form id="signup-form" action="welcome.html" method="POST" onsubmit="return validateForm()">
+                    <input type="text" id="first-name" placeholder="First Name" required>
+                    <input type="text" id="last-name" placeholder="Last Name" required>
+                    <input type="text" id="username" placeholder="Username" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <input type="password" id="confirm-password" placeholder="Confirm Password" required>
+                    <button type="submit">Go</button>
+                    <span id="error-message" class="error-message"></span>
+                </form>
+                <p>Already a member? <a href="#" id="login-link">Login</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
